@@ -31,14 +31,23 @@
         </button>
 
         {{-- Content --}}
-        <div class="relative text-center">
-            <h1 class="text-5xl font-bold text-[#F8E231] drop-shadow-lg">Unforgettable Events, Timeless Memories</h1>
-            <p class="mt-4 text-lg text-[#FFC5C5]">Experience the best concerts & corporate events with us.</p>
-            <div class="mt-6 space-x-4">
-                <a href="{{ route('services') }}" class="px-6 py-3 text-lg font-semibold bg-[#F8E231] text-black rounded-lg shadow-md hover:bg-yellow-400 transition">Book an Event</a>
-                <a href="{{ route('services') }}" class="px-6 py-3 text-lg font-semibold bg-[#FFC5C5] text-black rounded-lg shadow-md hover:bg-pink-300 transition">Learn More</a>
+        <div class="relative text-center px-4 md:px-0">
+            <h1 class="text-3xl md:text-5xl font-bold text-[#F8E231] drop-shadow-lg leading-tight">
+                Unforgettable Events, Timeless Memories
+            </h1>
+            <p class="mt-4 text-base md:text-lg text-[#FFC5C5]">
+                Experience the best concerts & corporate events with us.
+            </p>
+            <div class="mt-6 flex flex-col md:flex-row items-center justify-center md:space-x-4 space-y-4 md:space-y-0">
+                <a href="{{ route('services') }}" class="px-6 py-3 text-lg font-semibold bg-[#F8E231] text-black rounded-lg shadow-md hover:bg-yellow-400 transition w-full md:w-auto text-center">
+                    Book an Event
+                </a>
+                <a href="{{ route('services') }}" class="px-6 py-3 text-lg font-semibold bg-[#FFC5C5] text-black rounded-lg shadow-md hover:bg-pink-300 transition w-full md:w-auto text-center">
+                    View Our Packages
+                </a>
             </div>
         </div>
+
 
         {{-- Right Button (Next) --}}
         <button @click="currentIndex = (currentIndex + 1) % images.length" 
