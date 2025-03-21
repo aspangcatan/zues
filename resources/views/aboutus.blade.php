@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zeus Event Management</title>
+    <title>ZEUS 808 PRODUCTION AND EVENTS MANAGEMENT, INC.</title>
     <link rel="icon" href="{{ asset('img/zeuslogo.png') }}" type="image/png">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -74,14 +74,13 @@
         <div class="md:w-2/3">
             <h2 class="text-3xl font-bold italic text-black mb-6">Our Mission Statement</h2>
             <p class="text-gray-700 leading-relaxed text-lg">
-                At <span class="text-gold font-bold">Zeus Events Management</span>, our mission is to transform visions into extraordinary experiences. 
-                We are dedicated to delivering seamless, innovative, and unforgettable events—from grand concerts to corporate gatherings—by combining 
-                <span class="text-pink-500 font-semibold">creativity</span>, <span class="text-black font-semibold">precision</span>, and <span class="text-gold font-semibold">exceptional service</span>.
-                <br><br>
-                Our commitment to excellence ensures that every event we plan is a reflection of our clients' unique stories, leaving lasting impressions and cherished memories.
+                Our mission is to create <span class="text-gold font-bold">unforgettable experiences</span> that connect people, inspire 
+                <span class="text-pink-500 font-semibold">creativity</span>, and foster meaningful relationships.  
+                We are dedicated to delivering <span class="text-black font-semibold">exceptional event management services</span>  
+                through innovation, attention to detail, and a commitment to <span class="text-gold font-semibold">excellence</span>,  
+                ensuring that every event reflects our clients' unique vision and goals.
             </p>
-        </div>
-        
+        </div> 
         <!-- Mission Image -->
         <div class="md:w-1/3 flex justify-center">
             <div class="border-4 border-black rounded-full w-64 h-64 flex items-center justify-center bg-gray-200 shadow-lg overflow-hidden">
@@ -92,10 +91,33 @@
     <br>
     <br>
 
+    <!-- Vision Statement -->
+    <div class="flex flex-col md:flex-row-reverse items-center md:items-start gap-12 pt-20">
+        <div class="md:w-2/3">
+            <h2 class="text-3xl font-bold italic text-black mb-6">Our Vision Statement</h2>
+            <p class="text-gray-700 leading-relaxed text-lg">
+                Our vision is to be a <span class="text-gold font-bold">leading events management company</span> recognized for our  
+                <span class="text-pink-500 font-semibold">creativity</span>, <span class="text-black font-semibold">reliability</span>, and  
+                <span class="text-gold font-semibold">sustainability</span>.  
+                We aspire to redefine the events landscape by harnessing <span class="text-pink-500 font-semibold">cutting-edge technology</span>  
+                and <span class="text-black font-semibold">innovative practices</span>, continually exceeding client expectations while  
+                contributing positively to our <span class="text-gold font-semibold">communities</span> and the <span class="text-gold font-semibold">environment</span>.
+            </p>
+        </div> 
+        <!-- Vision Image -->
+        <div class="md:w-1/3 flex justify-center">
+            <div class="border-4 border-black rounded-full w-64 h-64 flex items-center justify-center bg-gray-200 shadow-lg overflow-hidden">
+                <img src="{{ asset('img/vissionpicture.png') }}" alt="Vision Image" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
     <!-- Meet the Team -->
     <div class="mt-12 pt-20 bg-gradient-to-b from-black to-gray-900 text-white py-12">
         <h2 class="text-3xl font-semibold italic text-center text-gold-500 mb-8">Meet the Team</h2>
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-between px-4">
             <!-- Left Arrow -->
             <div id="prevBtn" class="cursor-pointer w-10 h-10 border-l-4 border-t-4 border-gold-500 transform -rotate-45"></div>
 
