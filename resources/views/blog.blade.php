@@ -14,14 +14,14 @@
 <section class="relative bg-gold text-black h-[400px] flex flex-col items-center justify-center text-center px-6 mt-24">
     <h1 class="text-5xl font-bold">The Event Experience Blog</h1>
     <p class="text-lg mt-4">Sign up to stay ahead of the industry</p>
-    <div class="mt-6 w-full max-w-lg flex items-center space-x-4">
-        <select class="px-4 py-3 rounded-lg border border-black bg-white text-black focus:outline-none focus:ring-2 focus:ring-pink">
+    <div class="mt-6 w-full max-w-lg flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
+        <select class="w-full md:w-auto px-4 py-3 rounded-lg border border-black bg-white text-black focus:outline-none focus:ring-2 focus:ring-pink">
             <option>View all</option>
             <option>Event Planning</option>
             <option>Industry Trends</option>
             <option>Success Stories</option>
         </select>
-        <div class="relative flex-grow">
+        <div class="relative w-full md:w-auto flex-grow">
             <input type="text" placeholder="Search" class="w-full px-4 py-3 rounded-lg border border-black focus:outline-none focus:ring-2 focus:ring-pink">
             <button class="absolute right-4 top-3 text-black"><i class="fas fa-search"></i></button>
         </div>

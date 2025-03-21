@@ -2,7 +2,9 @@
     <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
         <!-- Logo & Copyright -->
         <div class="text-center md:text-left mb-4 md:mb-0">
-            <p class="text-sm text-[#F8E231] mt-2">&copy; {{ date('Y') }} ZEUS 808 PRODUCTION AND EVENTS MANAGEMENT, INC. All rights reserved.</p>
+            <p class="text-sm text-[#F8E231] mt-2">
+                &copy; {{ date('Y') }} ZEUS 808 PRODUCTION AND EVENTS MANAGEMENT, INC. All rights reserved.
+            </p>
         </div>
 
         <!-- Social Media Icons -->
@@ -25,6 +27,3 @@
         </div>
     </div>
 </footer>
-
-<!-- FontAwesome for Icons -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
