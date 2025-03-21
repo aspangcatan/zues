@@ -13,6 +13,18 @@
 @include('layouts.header')
 
 <section class="container mx-auto px-6 py-12 pt-32">
+
+    <!-- Company Description -->
+    <div class="mb-12 pt-10 text-center px-6">
+        <h2 class="text-4xl font-bold italic text-black mb-6">About Us</h2>
+        <div class="max-w-4xl mx-auto bg-white text-black p-8 rounded-lg">
+            <p class="text-lg leading-relaxed">
+                At <span class="text-gold font-semibold">ZEUS 808 Productions</span>, productions and events management company specializes in planning, organizing, and executing various types of events and productions. These can range from corporate events, weddings, and conferences to concerts, festivals, and theatrical productions..  
+            </p>
+        </div>
+    </div>
+
+
     <!-- Company History Timelines -->
     <div class="mb-12 pt-20 text-center">
         <h2 class="text-3xl font-bold italic text-black mb-6">Company History Timelines</h2>
