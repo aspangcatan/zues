@@ -53,7 +53,6 @@
 
     <!-- Sidebar -->
     @include('layouts.sidebar')
-
     <div class="flex-1 md:ml-64 transition-all">
         <!-- Navbar -->
         <nav class="bg-white shadow-md py-4 px-6 flex">

@@ -2,7 +2,7 @@
     <div class="container mx-auto flex items-center justify-between py-4 px-6">
         <!-- Logo -->
         <a href="{{ route('index') }}" class="flex items-center space-x-3">
-            <img src="{{ asset('img/zeusevents.png') }}" alt="ZEUS" 
+            <img src="{{ asset('img/zeusevents.png') }}" alt="ZEUS"
                 class="h-16 md:h-20 filter brightness-0 invert sepia saturate-200 hue-rotate-15">
         </a>
 
@@ -11,9 +11,9 @@
             <a href="{{ route('index') }}" class="text-[#F8E231] hover:text-[#FFC5C5] font-bold transition">Home</a>
             <a href="{{ route('aboutus') }}" class="text-[#F8E231] hover:text-[#FFC5C5] font-bold transition">About Us</a>
             <a href="{{ route('services') }}" class="text-[#F8E231] hover:text-[#FFC5C5] font-bold transition">Services</a>
-            <a href="{{ route('services') }}" class="text-[#F8E231] hover:text-[#FFC5C5] font-bold transition">Portfolio</a>
-            <a href="{{ route('services') }}" class="text-[#F8E231] hover:text-[#FFC5C5] font-bold transition">Blog</a>
-            <a href="{{ route('services') }}" class="text-[#F8E231] hover:text-[#FFC5C5] font-bold transition">Contact</a>
+            <a href="{{ route('portfolio') }}" class="text-[#F8E231] hover:text-[#FFC5C5] font-bold transition">Portfolio</a>
+            <a href="{{ route('blog') }}" class="text-[#F8E231] hover:text-[#FFC5C5] font-bold transition">Blog</a>
+            <a href="{{ route('contact') }}" class="text-[#F8E231] hover:text-[#FFC5C5] font-bold transition">Contact</a>
         </nav>
 
         <!-- Mobile Menu Button (Hamburger Icon) -->
@@ -29,8 +29,8 @@
         <a href="{{ route('index') }}" class="text-xl text-[#F8E231] hover:text-[#FFC5C5] font-medium transition">Home</a>
         <a href="{{ route('aboutus') }}" class="text-xl text-[#F8E231] hover:text-[#FFC5C5] font-medium transition">About Us</a>
         <a href="{{ route('services') }}" class="text-xl text-[#F8E231] hover:text-[#FFC5C5] font-medium transition">Services</a>
-        <a href="{{ route('services') }}" class="text-xl text-[#F8E231] hover:text-[#FFC5C5] font-medium transition">Portfolio</a>
-        <a href="{{ route('services') }}" class="text-xl text-[#F8E231] hover:text-[#FFC5C5] font-medium transition">Blog</a>
-        <a href="{{ route('services') }}" class="text-xl text-[#F8E231] hover:text-[#FFC5C5] font-medium transition">Contact</a>
+        <a href="{{ route('portfolio') }}" class="text-xl text-[#F8E231] hover:text-[#FFC5C5] font-medium transition">Portfolio</a>
+        <a href="{{ route('blog') }}" class="text-xl text-[#F8E231] hover:text-[#FFC5C5] font-medium transition">Blog</a>
+        <a href="{{ route('contact') }}" class="text-xl text-[#F8E231] hover:text-[#FFC5C5] font-medium transition">Contact</a>
     </nav>
 </header>
