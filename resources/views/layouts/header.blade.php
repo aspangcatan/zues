@@ -6,6 +6,7 @@
                 class="h-16 md:h-20 filter brightness-0 invert sepia saturate-200 hue-rotate-15">
         </a>
 
+
         <!-- Desktop Navigation -->
         <nav class="hidden md:flex items-center space-x-6">
             <a href="{{ route('index') }}" class="text-[#F8E231] hover:text-[#FFC5C5] font-bold transition">Home</a>

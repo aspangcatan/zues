@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zeus Event Management</title>
+    <title>ZEUS 808 PRODUCTION AND EVENTS MANAGEMENT, INC.</title>
     <link rel="icon" href="/img/zeuslogo.png" type="image/png">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
