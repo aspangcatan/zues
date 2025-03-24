@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZEUS 808 PRODUCTION AND EVENTS MANAGEMENT, INC.</title>
-    <link rel="icon" href="{{ asset('img/zeuslogo.png') }}" type="image/png">
+    <link rel="icon" href="{{ asset('img/zeuslogotemporary.png') }}" type="image/png">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
@@ -110,18 +110,30 @@
         <h2 class="text-2xl md:text-3xl font-bold italic text-black">Why Choose Zeus Events Management?</h2>
         <br>
         <ul class="mt-6 space-y-4 text-lg text-black text-center max-w-3xl mx-auto">
-            @for ($i = 0; $i < 4; $i++)
-                <li class="flex items-center justify-center space-x-3">
-                    <span class="text-black text-2xl">●</span>
-                    <span>End-to-End Event Planning – From concept to execution, we handle everything.</span>
-                </li>
-            @endfor
+            <li class="flex items-start space-x-3">
+                <span class="text-black text-2xl">●</span>
+                <span class="text-left">End-to-End Event Planning – From concept to execution, we handle everything.</span>
+            </li>
+            <li class="flex items-start space-x-3">
+                <span class="text-black text-2xl">●</span>
+                <span class="text-left">Tailored Experiences – We customize every event to match your unique vision and preferences.</span>
+            </li>
+            <li class="flex items-start space-x-3">
+                <span class="text-black text-2xl">●</span>
+                <span class="text-left">Reliable & Stress-Free Execution – Our team ensures a seamless experience, so you can enjoy your event without worry.</span>
+            </li>
+            <li class="flex items-start space-x-3">
+                <span class="text-black text-2xl">●</span>
+                <span class="text-left">Innovative & Trend-Forward Designs – We bring fresh, creative ideas to make your event unforgettable.</span>
+            </li>
         </ul>
+
+
         <br>
         <br>
-        <button class="mt-6 px-6 py-3 bg-black text-[#F8E231] font-bold rounded-lg shadow-lg hover:bg-[#F8E231] hover:text-black transition">
+        <a href="{{ route('contact') }}" class="mt-6 px-6 py-3 bg-black text-[#F8E231] font-bold rounded-lg shadow-lg hover:bg-[#F8E231] hover:text-black transition inline-block">
             Let’s Make Your Event Unforgettable – Book a Consultation!
-        </button>
+        </a>
     </div>
 </section>
 @include('layouts.footer')

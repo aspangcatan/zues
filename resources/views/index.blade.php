@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZEUS 808 PRODUCTION AND EVENTS MANAGEMENT, INC.</title>
-    <link rel="icon" href="/img/zeuslogo.png" type="image/png">
+    <link rel="icon" href="{{ asset('img/zeuslogotemporary.png') }}" type="image/png">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.3/dist/cdn.min.js" defer></script>
@@ -40,7 +40,7 @@
                 Experience the best concerts & corporate events with us.
             </p>
             <div class="mt-6 flex flex-col md:flex-row items-center justify-center md:space-x-4 space-y-4 md:space-y-0">
-                <a href="{{ route('services') }}" class="px-6 py-3 text-lg font-semibold bg-[#F8E231] text-black rounded-lg shadow-md hover:bg-yellow-400 transition w-full md:w-auto text-center">
+                <a href="{{ route('contact') }}" class="px-6 py-3 text-lg font-semibold bg-[#F8E231] text-black rounded-lg shadow-md hover:bg-yellow-400 transition w-full md:w-auto text-center">
                     Book an Event
                 </a>
                 <a href="{{ route('services') }}" class="px-6 py-3 text-lg font-semibold bg-[#FFC5C5] text-black rounded-lg shadow-md hover:bg-pink-300 transition w-full md:w-auto text-center">
