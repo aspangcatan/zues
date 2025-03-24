@@ -1,10 +1,12 @@
 <header id="main-header" style="background-color: black;" class="fixed top-0 left-0 w-full z-50 bg-black shadow-lg transition-all duration-300">
-    <div class="container mx-auto flex items-center justify-between py-4 px-6">
+    <div class="container mx-auto flex items-center justify-between py-3 px-6">
         <!-- Logo -->
         <a href="{{ route('index') }}" class="flex items-center space-x-3">
-        <img src="{{ asset('img/zeuslogotemporary.png') }}" alt="ZEUS"
-        class="h-16 md:h-20 mix-blend-screen">
+            <div class="bg-white p-1 rounded">
+                <img src="{{ asset('img/zeus-logo.png') }}" alt="ZEUS" class="h-10 md:h-12">
+            </div>
         </a>
+
 
         <!-- Desktop Navigation -->
         <nav class="hidden md:flex items-center space-x-6">
