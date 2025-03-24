@@ -2,8 +2,8 @@
     <div class="container mx-auto flex items-center justify-between py-4 px-6">
         <!-- Logo -->
         <a href="{{ route('index') }}" class="flex items-center space-x-3">
-            <img src="{{ asset('img/zeusevents.png') }}" alt="ZEUS"
-                class="h-16 md:h-20 filter brightness-0 invert sepia saturate-200 hue-rotate-15">
+        <img src="{{ asset('img/zeuslogotemporary.png') }}" alt="ZEUS"
+        class="h-16 md:h-20 mix-blend-screen">
         </a>
 
         <!-- Desktop Navigation -->
