@@ -1,10 +1,8 @@
 <header id="main-header" style="background-color: black;" class="fixed top-0 left-0 w-full z-50 bg-black shadow-lg transition-all duration-300">
-    <div class="container mx-auto flex items-center justify-between py-3 px-6">
+    <div class="container mx-auto flex items-center justify-between py-1 px-6">
         <!-- Logo -->
         <a href="{{ route('index') }}" class="flex items-center space-x-3">
-            <div class="bg-white p-1 rounded">
-                <img src="{{ asset('img/zeus-logo.png') }}" alt="ZEUS" class="h-10 md:h-12">
-            </div>
+        <img src="{{ asset('img/Zeus_808_WhiteText_Fixed.png') }}" alt="ZEUS" class="h-20 md:h-24" style="width:100px;">
         </a>
 
 
