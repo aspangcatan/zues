@@ -53,24 +53,29 @@
                         @csrf
                         <input type="text" name="full_name"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
-                               placeholder="Full Name">
+                               placeholder="Full Name" required>
                         <input type="email"
                                name="email"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
-                               placeholder="Email Address">
+                               placeholder="Email" required>
 
                         <input type="text" name="phone"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
-                               placeholder="Phone">
+                               placeholder="Contact Number" required>
+
+                        <textarea
+                            name="address"
+                            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
+                            placeholder="Address" rows="4" required></textarea>
 
                         <input type="text"
                                name="subject"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
-                               placeholder="Subject">
+                               placeholder="Subject" required>
                         <textarea
                             name="message"
                             class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
-                            placeholder="Your Message" rows="4"></textarea>
+                            placeholder="Your Message" rows="4" required></textarea>
                         <button type="submit"
                                 class="w-full bg-black text-white py-3 rounded-lg text-lg font-medium hover:bg-gray-800 transition duration-300">
                             Send Message

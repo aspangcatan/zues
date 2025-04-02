@@ -51,7 +51,8 @@
     <h2>New Contact Form Submission</h2>
     <p><strong>Full Name:</strong> {{ $data['full_name'] }}</p>
     <p><strong>Email:</strong> {{ $data['email'] }}</p>
-    <p><strong>Phone:</strong> {{ $data['phone'] }}</p>
+    <p><strong>Contact Number:</strong> {{ $data['phone'] }}</p>
+    <p><strong>Address:</strong> {{ $data['address'] }}</p>
     <p><strong>Subject:</strong> {{ $data['subject'] }}</p>
     <div class="info">
         <p><strong>Message:</strong></p>
