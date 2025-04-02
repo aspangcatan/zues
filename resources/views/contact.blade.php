@@ -37,7 +37,6 @@
                             <span>📍</span> <span>15 West 3rd St., Palawan, 6080</span>
                         </p>
                     </div>
-
                     <!-- Responsive Map -->
                     <div class="mt-6 w-full h-64 rounded-lg overflow-hidden shadow-lg">
                         <iframe class="w-full h-full" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
@@ -45,44 +44,36 @@
                         </iframe>
                     </div>
                 </div>
-
                 <!-- Contact Form -->
                 <div class="bg-gray-100 p-6 sm:p-8 rounded-lg shadow-xl">
-                    <h3 class="text-2xl font-semibold text-gray-900 mb-6">Get In Touch</h3>
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Get in Touch – Contact Us for Inquiries & Bookings</h3>
+                    <p class="text-gray-700 mb-6">Have questions or want to book our services? We’re here to help! Whether you're planning an event, need more details about our offerings, or have any other inquiries, feel free to reach out. Fill out the form below, and we’ll get back to you as soon as possible.</p>
                     <form id="contactForm" action="{{ route('sendContactEmail') }}" method="POST" class="space-y-4">
                         @csrf
                         <input type="text" name="full_name"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                placeholder="Full Name" required>
-                        <input type="email"
-                               name="email"
+                        <input type="email" name="email"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                placeholder="Email" required>
-
                         <input type="text" name="phone"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                placeholder="Contact Number" required>
-
-                        <textarea
-                            name="address"
-                            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
-                            placeholder="Address" rows="4" required></textarea>
-
-                        <input type="text"
-                               name="subject"
+                        <textarea name="address"
+                                  class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
+                                  placeholder="Address" rows="4" required></textarea>
+                        <input type="text" name="subject"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                placeholder="Subject" required>
-                        <textarea
-                            name="message"
-                            class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
-                            placeholder="Your Message" rows="4" required></textarea>
+                        <textarea name="message"
+                                  class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
+                                  placeholder="Your Message" rows="4" required></textarea>
                         <button type="submit"
                                 class="w-full bg-black text-white py-3 rounded-lg text-lg font-medium hover:bg-gray-800 transition duration-300">
                             Send Message
                         </button>
                     </form>
                 </div>
-
             </div>
         </div>
     </section>
