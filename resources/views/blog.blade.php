@@ -94,7 +94,7 @@
 
         // Simulate loading time for testing with setTimeout
 
-        fetch('{{ route('index') }}?q_=' + search)
+        fetch('{{ route('blogs.planning') }}?q_=' + search)
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`Server Error: ${response.status} ${response.statusText}`);
