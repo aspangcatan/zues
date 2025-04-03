@@ -52,10 +52,10 @@
     </div>
 
     <!-- Right Section for Blog Management Table -->
-    <div class="w-full md:flex-1 bg-gray-800 p-6 rounded-lg overflow-x-auto">
-        <table class="w-full table-auto text-left">
+    <div class="w-full bg-gray-800 p-6 rounded-lg overflow-x-auto">
+        <table class="w-full table-auto text-left min-w-[400px]">
             <thead>
-            <tr class="text-gray-400 text-sm md:text-base">
+            <tr class="text-gray-400">
                 <th class="px-4 md:px-6 py-3">Title</th>
                 <th class="px-4 md:px-6 py-3">Type</th>
                 <th class="px-4 md:px-6 py-3">Actions</th>
