@@ -18,8 +18,8 @@
 <!-- Types of Events Managed Section -->
 <section class="pt-40 pb-16 bg-black">
     <div class="container mx-auto text-center">
-        <h2 class="text-2xl md:text-3xl font-bold italic text-[#F8E231]">Crafting Unforgettable Experiences – Events We Manage</h2>
-        <p class="text-lg text-[#FFC5C5] mt-4">From corporate gatherings to elegant social celebrations, we bring your vision to life with precision and creativity.</p>
+        <h2 class="text-2xl md:text-3xl font-bold italic text-[#D99D07]">Crafting Unforgettable Experiences – Events We Manage</h2>
+        <p class="text-lg text-[#C34793] mt-4">From corporate gatherings to elegant social celebrations, we bring your vision to life with precision and creativity.</p>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
             <!-- Corporate Events -->
@@ -83,7 +83,7 @@
                     ['image' => 'vendorcoordination.png', 'name' => 'Vendor Coordination', 'description' => 'Sourcing and managing suppliers such as caterers, decorators, and audio-visual technicians.'],
                     ['image' => 'marketingpromotion.png', 'name' => 'Marketing and Promotion', 'description' => 'Creating promotional materials, managing social media campaigns, and working on public relations.'],
                     ['image' => 'onsitemanagement.png', 'name' => 'On-Site Management', 'description' => 'Overseeing the event on the day, ensuring that everything runs smoothly and addressing any unforeseen issues.'],
-                    ['image' => 'posteventevaluation.png', 'name' => 'Post-Event Evaluation', 'description' => 'Gathering feedback, analyzing event success, and providing reports to clients.'],
+                    ['image' => 'posteventevaluation.jpg', 'name' => 'Post-Event Evaluation', 'description' => 'Gathering feedback, analyzing event success, and providing reports to clients.'],
                 ];
             @endphp
 
@@ -94,7 +94,7 @@
                         <img src="{{ asset('img/' . $service['image']) }}" alt="{{ $service['name'] }}" class="w-full h-full object-cover">
                     </div>
                     <p class="text-sm text-gray-700 mt-2">{{ $service['description'] }}</p>
-                    <button class="bg-black text-[#F8E231] px-4 py-2 font-bold rounded-lg shadow-lg hover:bg-[#F8E231] hover:text-black transition mt-4">
+                    <button class="bg-black text-[#F8E231] px-4 py-2 font-bold rounded-lg shadow-lg hover:bg-[#FBC646] hover:text-black transition mt-4">
                         BOOK NOW
                     </button>
                 </div>
@@ -105,7 +105,7 @@
 </section>
 
 <!-- Why Choose Us Section -->
-<section class="bg-[#FFC5C5] py-16">
+<section class="bg-[#FF66C4] py-16">
     <div class="container mx-auto text-center">
         <h2 class="text-2xl md:text-3xl font-bold italic text-black">Why Choose Zeus Events Management?</h2>
         <br>
@@ -131,7 +131,7 @@
 
         <br>
         <br>
-        <a href="{{ route('contact') }}" class="mt-6 px-6 py-3 bg-black text-[#F8E231] font-bold rounded-lg shadow-lg hover:bg-[#F8E231] hover:text-black transition inline-block">
+        <a href="{{ route('contact') }}" class="mt-6 px-6 py-3 bg-black text-[#FBC646] font-bold rounded-lg shadow-lg hover:bg-[#FBC646] hover:text-black transition inline-block">
             Let’s Make Your Event Unforgettable – Book a Consultation!
         </a>
     </div>
