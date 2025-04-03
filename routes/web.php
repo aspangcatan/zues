@@ -38,4 +38,6 @@ Route::get('/portfolio', function () {
     return view('portfolio');
 })->name('portfolio');
 
+// BACKEND ROUTES
+Route::get('/blogs/planning', [\App\Http\Controllers\BlogController::class, 'index'])->name('index');
 Route::post('/contact', [ContactController::class, 'sendContactEmail'])->name('sendContactEmail');
