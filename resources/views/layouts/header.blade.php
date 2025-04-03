@@ -2,7 +2,7 @@
     <div class="container mx-auto flex items-center justify-between py-1 px-6">
         <!-- Logo -->
         <a href="{{ route('index') }}" class="flex items-center space-x-3">
-        <img src="{{ asset('img/Zeus_808_WhiteText_Fixed.png') }}" alt="ZEUS" class="h-20 md:h-24" style="width:100px;">
+        <img src="{{ asset('img/Zeus_808_WhiteText_Fixed.png') }}" alt="ZEUS" class="h-20 md:h-24" style="width:140px;">
         </a>
 
 
@@ -37,15 +37,15 @@
 
 <style>
     .nav-link {
-        color: #F8E231; /* Default color */
+        color: #FBC646; /* Default color */
         font-weight: bold;
         transition: color 0.3s ease-in-out;
     }
     .nav-link:hover {
-        color: #FFC5C5; /* Hover color */
+        color: #FF66C4; /* Hover color */
     }
     .nav-link.active {
-        color: #FFC5C5; /* Active page color */
+        color: #D99D07; /* Active page color */
         border-bottom: 3px solid #F8E231; /* Underline effect */
     }
 
