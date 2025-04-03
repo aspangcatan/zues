@@ -46,7 +46,7 @@
                 <a href="{{ route('contact') }}" class="px-6 py-3 text-lg font-semibold bg-[#D99D07] text-black rounded-lg shadow-md hover:bg-yellow-400 transition w-full md:w-auto text-center">
                     Book an Event
                 </a>
-                <a href="{{ route('services') }}" class="px-6 py-3 text-lg font-semibold bg-[#FF66C4] text-black rounded-lg shadow-md hover:bg-pink-300 transition w-full md:w-auto text-center">
+                <a href="{{ route('services') }}" class="px-6 py-3 text-lg font-semibold bg-[#D99D07] text-black rounded-lg shadow-md hover:bg-yellow-400 transition w-full md:w-auto text-center">
                     View Our Packages
                 </a>
             </div>

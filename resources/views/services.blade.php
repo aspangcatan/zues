@@ -31,13 +31,13 @@
                 <div class="swiper corporate-slider mt-6">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="{{ asset('img/conference.png') }}" alt="Conference" class="w-full h-80 object-cover rounded-lg">
+                            <img src="{{ asset('img/conference.jpg') }}" alt="Conference" class="w-full h-80 object-cover rounded-lg">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('img/productlaunch.png') }}" alt="Product Launch" class="w-full h-80 object-cover rounded-lg">
+                            <img src="{{ asset('img/productlaunch.jpg') }}" alt="Product Launch" class="w-full h-80 object-cover rounded-lg">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('img/teambuilding.png') }}" alt="Team Building" class="w-full h-80 object-cover rounded-lg">
+                            <img src="{{ asset('img/teambuilding.jpg') }}" alt="Team Building" class="w-full h-80 object-cover rounded-lg">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -47,19 +47,19 @@
             <!-- Social Events -->
             <div class="border-2 border-[#FFC5C5] p-6 rounded-lg shadow-lg bg-white">
                 <h3 class="text-lg md:text-xl font-bold italic text-black">Social Events</h3>
-                <p class="text-black mt-2">Weddings, anniversaries, and private parties crafted with elegance and joy.</p>
-                <br>
+                <p class="text-black mt-2">Weddings, anniversaries, celebrations, and private parties crafted with elegance and joy.</p>
+                
                 <!-- Swiper for Social Events -->
                 <div class="swiper social-slider mt-6">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="{{ asset('img/weddingreception.png') }}" alt="Wedding" class="w-full h-80 object-cover rounded-lg">
+                            <img src="{{ asset('img/weddingreception.jpg') }}" alt="Wedding" class="w-full h-80 object-cover rounded-lg">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('img/romanticanniversary.png') }}" class="w-full h-80 object-cover rounded-lg">
+                            <img src="{{ asset('img/romanticanniversary.jpg') }}" class="w-full h-80 object-cover rounded-lg">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('img/privateparty.png') }}" alt="Private Party" class="w-full h-80 object-cover rounded-lg">
+                            <img src="{{ asset('img/privateparty.jpg') }}" alt="Private Party" class="w-full h-80 object-cover rounded-lg">
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -78,11 +78,11 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
             @php
                 $services = [
-                    ['image' => 'eventplanning.png', 'name' => 'Event Planning', 'description' => 'Concept development, venue selection, budgeting, and timeline creation.'],
-                    ['image' => 'logisticsmanagement.png', 'name' => 'Logistics Management', 'description' => 'Coordinating transportation, accommodations, catering, and technical requirements (like lighting and sound).'],
-                    ['image' => 'vendorcoordination.png', 'name' => 'Vendor Coordination', 'description' => 'Sourcing and managing suppliers such as caterers, decorators, and audio-visual technicians.'],
-                    ['image' => 'marketingpromotion.png', 'name' => 'Marketing and Promotion', 'description' => 'Creating promotional materials, managing social media campaigns, and working on public relations.'],
-                    ['image' => 'onsitemanagement.png', 'name' => 'On-Site Management', 'description' => 'Overseeing the event on the day, ensuring that everything runs smoothly and addressing any unforeseen issues.'],
+                    ['image' => 'eventplanning.jpg', 'name' => 'Event Planning', 'description' => 'Concept development, venue selection, budgeting, and timeline creation.'],
+                    ['image' => 'logisticsmanagement.jpg', 'name' => 'Logistics Management', 'description' => 'Coordinating transportation, accommodations, catering, and technical requirements (like lighting and sound).'],
+                    ['image' => 'vendorcoordination.jpg', 'name' => 'Vendor Coordination', 'description' => 'Sourcing and managing suppliers such as caterers, decorators, and audio-visual technicians.'],
+                    ['image' => 'marketingpromotion.jpg', 'name' => 'Marketing and Promotion', 'description' => 'Creating promotional materials, managing social media campaigns, and working on public relations.'],
+                    ['image' => 'onsitemanagement.jpg', 'name' => 'On-Site Management', 'description' => 'Overseeing the event on the day, ensuring that everything runs smoothly and addressing any unforeseen issues.'],
                     ['image' => 'posteventevaluation.jpg', 'name' => 'Post-Event Evaluation', 'description' => 'Gathering feedback, analyzing event success, and providing reports to clients.'],
                 ];
             @endphp
