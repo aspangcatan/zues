@@ -55,11 +55,11 @@
     <div class="w-full bg-gray-800 p-6 rounded-lg overflow-x-auto">
         <table class="w-full table-auto text-left min-w-[400px]">
             <thead>
-            <tr class="text-gray-400">
-                <th class="px-6 py-3">Title</th>
-                <th class="px-6 py-3">Type</th>
-                <th class="px-6 py-3" colspan="2">Actions</th>
-            </tr>
+                <tr class="text-gray-400">
+                    <th class="px-6 py-3 w-[40%]">Title</th>
+                    <th class="px-6 py-3 w-[40%]">Type</th>
+                    <th class="px-6 py-3 w-[20%]" colspan="2"></th>
+                </tr>
             </thead>
             <tbody id="blogTableBody">
             <!-- Table rows will be populated dynamically -->
