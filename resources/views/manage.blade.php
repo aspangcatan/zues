@@ -56,9 +56,9 @@
         <table class="w-full table-auto text-left min-w-[400px]">
             <thead>
             <tr class="text-gray-400">
-                <th class="px-4 md:px-6 py-3">Title</th>
-                <th class="px-4 md:px-6 py-3">Type</th>
-                <th class="px-4 md:px-6 py-3">Actions</th>
+                <th class="px-6 py-3">Title</th>
+                <th class="px-6 py-3">Type</th>
+                <th class="px-6 py-3" colspan="2">Actions</th>
             </tr>
             </thead>
             <tbody id="blogTableBody">
@@ -103,12 +103,14 @@
                 blogs.forEach(blog => {
                     rows += `
                         <tr>
-                            <td class="px-4 md:px-6 py-3 text-gray-300">${blog.title}</td>
-                            <td class="px-4 md:px-6 py-3 text-gray-300">${blog.type === 1 ? 'Planning' : 'Moments'}</td>
-                            <td class="px-4 md:px-6 py-3">
-                                <button class="bg-blue-600 text-white px-3 md:px-4 py-1 md:py-2 rounded-md" onclick="editBlog(${blog.id})">Edit</button>
-                                <button class="bg-red-600 text-white px-3 md:px-4 py-1 md:py-2 rounded-md ml-2" onclick="confirmDelete(${blog.id})">Delete</button>
-                            </td>
+                             <td class="px-4 md:px-6 py-3 text-gray-300">${blog.title}</td>
+                                <td class="px-4 md:px-6 py-3 text-gray-300">${blog.type === 1 ? 'Planning' : 'Moments'}</td>
+                                <td class="px-4 md:px-6 py-3">
+                                    <button class="bg-blue-600 text-white px-3 md:px-4 py-1 md:py-2 rounded-md" onclick="editBlog(${blog.id})">Edit</button>
+                                </td>
+                                <td class="px-4 md:px-6 py-3">
+                                    <button class="bg-red-600 text-white px-3 md:px-4 py-1 md:py-2 rounded-md" onclick="confirmDelete(${blog.id})">Delete</button>
+                                </td>
                         </tr>`;
                 });
                 if (rows === '') {
