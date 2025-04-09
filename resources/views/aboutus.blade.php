@@ -135,42 +135,46 @@
             <div id="prevBtn" class="cursor-pointer w-10 h-10 border-l-4 border-t-4 border-gold-500 transform -rotate-45"></div>
 
             <!-- Team Members Container -->
-            <div class="overflow-hidden w-[300px] md:w-[900px]">
-                <div id="teamSlider" class="flex transition-transform duration-500">
-                    <!-- Team Member 1 -->
-                    <div class="team-member w-[300px] md:w-[300px] flex-shrink-0 text-center border-2 border-gold-500 p-6 rounded-lg shadow-lg hover:shadow-gold-500 transition duration-300">
-                        <div class="w-56 h-80 bg-gray-300 mx-auto rounded-lg overflow-hidden">
-                            <img src="{{ asset('img/asnaui.jpg') }}" alt="Rey Arki" class="w-full h-full object-cover">
-                        </div>
-                        <p class="mt-4 text-lg font-semibold text-gold-500">Asnaui Pangcatan</p>
-                        <p class="text-sm text-gray-300 italic">CEO & Founder</p>
-                    </div>
-                    <!-- Team Member 2 -->
-                    <div class="team-member w-[300px] md:w-[300px] flex-shrink-0 text-center border-2 border-gold-500 p-6 rounded-lg shadow-lg hover:shadow-gold-500 transition duration-300">
-                        <div class="w-56 h-80 bg-gray-300 mx-auto rounded-lg overflow-hidden">
-                            <img src="{{ asset('img/jobeth.jpg') }}" alt="Rey Arki" class="w-full h-full object-cover">
-                        </div>
-                        <p class="mt-4 text-lg font-semibold text-gold-500">Jobeth Adjaluddin</p>
-                        <p class="text-sm text-gray-300 italic">Creative Director</p>
-                    </div>
-                    <!-- Team Member 3 -->
-                    <div class="team-member w-[300px] md:w-[300px] flex-shrink-0 text-center border-2 border-gold-500 p-6 rounded-lg shadow-lg hover:shadow-gold-500 transition duration-300">
-                        <div class="w-56 h-80 bg-gray-300 mx-auto rounded-lg overflow-hidden">
-                            <img src="{{ asset('img/laurice.jpg') }}" alt="Rey Arki" class="w-full h-full object-cover">
-                        </div>
-                        <p class="mt-4 text-lg font-semibold text-gold-500">Klaire Lee</p>
-                        <p class="text-sm text-gray-300 italic">Event Coordinator</p>
-                    </div>
-                     <!-- Team Member 4 -->
-                     <div class="team-member w-[300px] md:w-[300px] flex-shrink-0 text-center border-2 border-gold-500 p-6 rounded-lg shadow-lg hover:shadow-gold-500 transition duration-300">
-                        <div class="w-56 h-80 bg-gray-300 mx-auto rounded-lg overflow-hidden">
-                            <img src="{{ asset('img/yume-artist-5.png') }}" alt="Rey Arki" class="w-full h-full object-cover">
-                        </div>
-                        <p class="mt-4 text-lg font-semibold text-gold-500">Rey Arki</p>
-                        <p class="text-sm text-gray-300 italic">Event Coordinator</p>
-                    </div>
-                </div>
+<div class="overflow-hidden w-[300px] md:w-[900px]">
+    <div id="teamSlider" class="flex transition-transform duration-500">
+        <!-- Team Member 1 -->
+        <div class="team-member w-[300px] flex-shrink-0 text-center border-2 border-gold-500 p-6 rounded-lg shadow-lg hover:shadow-gold-500 transition duration-300">
+            <div class="w-56 h-56 bg-gray-300 mx-auto rounded-lg overflow-hidden">
+                <img src="{{ asset('img/asnaui.jpg') }}" alt="Asnaui Pangcatan" class="w-full h-full object-cover">
             </div>
+            <p class="mt-4 text-lg font-semibold text-gold-500">Asnaui Pangcatan</p>
+            <p class="text-sm text-gray-300 italic">CEO & Founder</p>
+        </div>
+        
+        <!-- Team Member 2 -->
+        <div class="team-member w-[300px] flex-shrink-0 text-center border-2 border-gold-500 p-6 rounded-lg shadow-lg hover:shadow-gold-500 transition duration-300">
+            <div class="w-56 h-56 bg-gray-300 mx-auto rounded-lg overflow-hidden">
+                <img src="{{ asset('img/jobeth.jpg') }}" alt="Jobeth Adjaluddin" class="w-full h-full object-cover">
+            </div>
+            <p class="mt-4 text-lg font-semibold text-gold-500">Jobeth Adjaluddin</p>
+            <p class="text-sm text-gray-300 italic">Creative Director</p>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member w-[300px] flex-shrink-0 text-center border-2 border-gold-500 p-6 rounded-lg shadow-lg hover:shadow-gold-500 transition duration-300">
+            <div class="w-56 h-56 bg-gray-300 mx-auto rounded-lg overflow-hidden">
+                <img src="{{ asset('img/laurice.jpg') }}" alt="Klaire Lee" class="w-full h-full object-cover">
+            </div>
+            <p class="mt-4 text-lg font-semibold text-gold-500">Klaire Lee</p>
+            <p class="text-sm text-gray-300 italic">Event Coordinator</p>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="team-member w-[300px] flex-shrink-0 text-center border-2 border-gold-500 p-6 rounded-lg shadow-lg hover:shadow-gold-500 transition duration-300">
+            <div class="w-56 h-56 bg-gray-300 mx-auto rounded-lg overflow-hidden">
+                <img src="{{ asset('img/yume-artist-5.png') }}" alt="Rey Arki" class="w-full h-full object-cover">
+            </div>
+            <p class="mt-4 text-lg font-semibold text-gold-500">Rey Arki</p>
+            <p class="text-sm text-gray-300 italic">Event Coordinator</p>
+        </div>
+    </div>
+</div>
+
 
             <!-- Right Arrow -->
             <div id="nextBtn" class="cursor-pointer w-10 h-10 border-r-4 border-t-4 border-gold-500 transform rotate-45"></div>
