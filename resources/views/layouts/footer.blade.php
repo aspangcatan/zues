@@ -9,7 +9,7 @@
 
         <!-- Social Media Icons -->
         <div class="flex space-x-6">
-            <a href="https://www.facebook.com" target="_blank" class="text-[#D99D07] hover:text-[#FFC5C5] transition">
+            <a href="https://www.facebook.com/zeus808events" target="_blank" class="text-[#D99D07] hover:text-[#FFC5C5] transition">
                 <i class="fab fa-facebook-f text-3xl"></i>
             </a>
             <a href="https://www.twitter.com" target="_blank" class="text-[#D99D07] hover:text-[#FFC5C5] transition">
