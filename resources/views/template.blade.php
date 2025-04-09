@@ -7,6 +7,18 @@
     <link rel="icon" href="{{ asset('img/Zeus808Logo.png') }}" type="image/png">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .blog-description {
+            white-space: pre-line;
+        }
+
+        .truncate-multiline {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            -webkit-line-clamp: 4; /* Limit to 4 lines */
+        }
+    </style>
 </head>
 <body class="bg-white text-gray-900">
 

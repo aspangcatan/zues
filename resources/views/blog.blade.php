@@ -8,6 +8,18 @@
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .blog-description {
+            white-space: pre-line;
+        }
+
+        .truncate-multiline {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            -webkit-line-clamp: 4; /* Limit to 4 lines */
+        }
+    </style>
 </head>
 <body class="text-white">
 
