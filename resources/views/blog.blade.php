@@ -118,14 +118,17 @@
                 } else {
                     planningBlogs.forEach(blog => {
                         plannings += `
-                            <div class="bg-gray-100 p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                        <div class="bg-gray-100 p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                                 <h3 class="text-xl font-semibold text-gold">${blog.title}</h3>
-                                <p class="text-gray-700 mt-2">${blog.description}</p>
-                                <a href="${blog.link}" target="_blank"
+                                 <p class="text-gray-700 mt-2 truncate-multiline">
+                                    ${blog.description}
+                                </p>
+                                <a href="{{ url('blog') }}/${blog.id}" target="_blank"
                                    class="mt-4 inline-block text-black bg-gold hover:bg-pink transition-colors px-6 py-3 rounded-full shadow-md font-semibold">
                                    Read More
                                 </a>
-                            </div>
+                        </div>
+
                         `;
                     });
                 }
@@ -141,8 +144,10 @@
                         moments += `
                             <div class="bg-gray-100 p-8 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                                 <h3 class="text-xl font-semibold text-gold">${blog.title}</h3>
-                                <p class="text-gray-700 mt-2">${blog.description}</p>
-                                <a href="${blog.link}" target="_blank"
+                                 <p class="text-gray-700 mt-2 truncate-multiline">
+                                    ${blog.description}
+                                </p>
+                                <a href="{{ url('blog') }}/${blog.id}" target="_blank"
                                    class="mt-4 inline-block text-black bg-gold hover:bg-pink transition-colors px-6 py-3 rounded-full shadow-md font-semibold">
                                    Read More
                                 </a>

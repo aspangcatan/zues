@@ -16,8 +16,8 @@ return new class extends Migration {
             $table->id();
             $table->string('title', 255);
             $table->text('description');
-            $table->text('link');
             $table->integer('type');  // 1 = Planning Tips; 2 = Client Spotlights
+            $table->string('photo')->nullable(); // Add this line
             $table->timestamps();
         });
     }

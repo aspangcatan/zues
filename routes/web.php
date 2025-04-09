@@ -45,6 +45,9 @@ Route::get('/portfolio', function () {
     return view('portfolio');
 })->name('portfolio');
 
+Route::get('blog/{id}', [BlogController::class, 'showBlog'])->name('blog.show');
+
+
 // BACKEND ROUTES
 Route::get('/blogs/planning', [\App\Http\Controllers\BlogController::class, 'index'])->name('blogs.planning');
 
