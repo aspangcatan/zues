@@ -94,7 +94,7 @@
                 ensuring that every event reflects our clients' unique vision and goals.
             </p>
         </div> 
-        <!-- Mission Image -->
+        <!-- Mission Image test-->
         <div class="md:w-1/3 flex justify-center">
             <div class="border-4 border-black rounded-full w-64 h-64 flex items-center justify-center bg-gray-200 shadow-lg overflow-hidden">
                 <img src="{{ asset('img/missionpicture.png') }}" alt="Mission Image" class="w-full h-full object-cover">
