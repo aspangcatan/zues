@@ -94,9 +94,13 @@
                         <img src="{{ asset('img/' . $service['image']) }}" alt="{{ $service['name'] }}" class="w-full h-full object-cover">
                     </div>
                     <p class="text-sm text-gray-700 mt-2">{{ $service['description'] }}</p>
-                    <button class="bg-black text-[#F8E231] px-4 py-2 font-bold rounded-lg shadow-lg hover:bg-[#FBC646] hover:text-black transition mt-4">
+                    <!-- <button href="{{ route('contact') }}" class="bg-black text-[#F8E231] px-4 py-2 font-bold rounded-lg shadow-lg hover:bg-[#FBC646] hover:text-black transition mt-4">
                         BOOK NOW
-                    </button>
+                    </button> -->
+                    <a href="{{ route('contact') }}" class="inline-block bg-black text-[#F8E231] px-4 py-2 font-bold rounded-lg shadow-lg hover:bg-[#FBC646] hover:text-black transition mt-4">
+                        BOOK NOW
+                    </a>
+
                 </div>
             @endforeach
         </div>
